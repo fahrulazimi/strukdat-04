@@ -31,8 +31,8 @@ void createElemt(pointer& p){
     cout << "Input Data Pegawai :" <<endl;
     p = new Elemtlist;
     cout << "Nama	: "; cin.ignore(); getline(cin,p->nama);
-    cout << "Gaji	: "; cin >> p->gaji;
     cout << "Bidang	: "; cin >> p->bidang;
+    cout << "Gaji	: "; cin >> p->gaji;
     p->next=NULL;
 }
 
